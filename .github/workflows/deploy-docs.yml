@@ -20,6 +20,9 @@ jobs:
       - run: npm ci
 
       - run: npm run build
+        env:
+          TURBO_TOKEN: GEteVLPn2F4BIiRG15LFg0LS
+          TURBO_TEAM: trajetoria-dev
 
       - name: Deploy storybook
         working-directory: ./packages/docs
