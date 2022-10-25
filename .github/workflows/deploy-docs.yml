@@ -23,7 +23,7 @@ jobs:
 
       - run: npm run build
         env:
-          TURBO_TOKEN: GEteVLPn2F4BIiRG15LFg0LS
+          TURBO_TOKEN: ${{ secrets.VERCEL_TOKEN }}
           TURBO_TEAM: trajetoria-dev
 
       - name: Deploy storybook
