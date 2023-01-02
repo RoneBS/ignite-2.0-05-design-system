@@ -1,0 +1,2 @@
+import{A as t}from"./index.52d74e65.js";import"./index.dbfb253a.js";import"./iframe.9a2455b7.js";import"./index.95e160e9.js";import"./jsx-runtime.81d13be3.js";const e={title:"Data display/Avatar",component:t,args:{src:"https://github.com/RoneBS.png",alt:"Rone Silveira"},argTypes:{src:{control:{type:"text"}}}},p={},c={args:{src:void 0}},m=["Primary","WithFallback"];export{p as Primary,c as WithFallback,m as __namedExportsOrder,e as default};
+//# sourceMappingURL=Avatar.stories.1989e30f.js.map
